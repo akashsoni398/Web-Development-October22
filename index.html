@@ -3,12 +3,35 @@
     <head>
         <title>First Website</title>
         <meta name="description" content="This is the first webpage for web devleopment october batch" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="" />
-        <style></style>
+        <style>
+            #para {
+                font-size: 30px;
+                color: red;
+            }
+
+            .textbox {
+                padding: 20px;
+                background-color: white;
+            }
+            input {
+                
+            }
+        </style>
         <script></script>
     </head>
 
     <body>
+
+        <p id="para">Hello World</p>
+        <form method="get" action="welcome.php">
+            <input class="textbox" type="text" name="username">
+            <input class="textbox" type="email" />
+            <button type="submit">Login</button>
+        </form>
+
+
         <!-- basic tags -->
         Hello World<br>
         Hello World
